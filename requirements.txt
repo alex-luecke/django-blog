@@ -9,7 +9,7 @@ charset-normalizer>=2.1.1
 colorama>=0.4.4
 decorator>=5.1.1
 distlib>=0.3.4
-Django>=4.1
+Django
 executing>=0.8.3
 filelock>=3.7.1
 flake8>=4.0.1
