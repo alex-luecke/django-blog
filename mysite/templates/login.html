@@ -7,10 +7,10 @@
   {{ form.as_p }}
   <p><input type="submit" value="Log In"></p>
 </form>
-<h1>Django Allauth Tutorial</h1>
+<h1>Gitgub Social Log In</h1>
 {% if user.is_authenticated %}
 <p>Welcome {{ user.username }} !!!</p>
 {% else %}
-<a href="{% provider_login_url 'github' %}">Sign Up</a>
+<a href="{% provider_login_url 'github' %}">Connect Github Account</a>
 {% endif %}
 {% endblock %}
